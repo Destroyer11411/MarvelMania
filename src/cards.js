@@ -11,7 +11,7 @@ export default function cards(props) {
             <img src={props.img}  className="card-img-top" />
                 <h5 className="card-title"> {props.title}</h5>
                 <p className="card-text"> {props.description}</p>
-                <a rel="noreferrer" href={props.link} target="_blank" className="btn btn-sm btn-dark">{props.btnname}</a>
+               
               </div>
             </div>
         
